@@ -57,7 +57,7 @@ Die dice1;
       void show()
       {
  fill(255,255,255);
-square(myX,myY,50);
+rect(myX,myY,50,50);
 fill(0,0,0);
 if (sideValue == 1) {
   ellipse(myX+25,myY+25,10,10);
